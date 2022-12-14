@@ -6,7 +6,8 @@ console.log(textInput);
 console.log(btn);
 console.log(outputRes);
 
-let url = "https://api.funtranslations.com/translate/minion.json"
+// let url = "https://api.funtranslations.com/translate/minion.json"
+let url ="https://api.funtranslations.com/translate/pirate.json";
 
 
 function checkUrl (text) {
