@@ -7,16 +7,15 @@
     background-image: url(mark72.webp);
 }
 .header {
-    background-color: rgb(228, 183, 138);
+    background-color: ghostwhite;
     height: 5vh;
-    width: 40%;
+    /* width: 40%; */
     text-align: center;
     margin-top: 8px;
     padding: 0.5em;
-    font-size: 25px;
+    font-size: 30px;
     font-family: cursive;
-    font-style: italic;
-    z-index: 100;
+    font-weight: 700;
 }
 
 
@@ -30,7 +29,7 @@
 }
 .textInput {
     height: 20vh;
-    background-color: rgb(248, 235, 218);
+    background-color: lightgray;
     margin: 1em;
     padding: 1em;
     display: block;
@@ -41,19 +40,19 @@
 
 .btn{
     margin: 20px;
-    padding: 0.5em;
+    padding: 0.9em;
     border-radius: 8px;
     font-size: large;
-    background-color: black;
-    color: lightblue;
+    background-color: ghostwhite;
+    font-weight: 600;   
+    letter-spacing: 1px;
 
-    
 }
 
 .instruction {
     font-size: 25px;
     font-weight: bold;
-    background-color: rgb(189, 126, 62);
+    background-color: lightgray;
     height: 5vh;
     width: 40%;
     text-align: center;
@@ -65,7 +64,7 @@
     height: 20vh;
     width: 50%;
     border: 3px, solid, black;
-    background-color: rgb(196, 157, 107);
+    background-color: lightgray;
     margin: 2em;
     padding: 1em;
     font-size: 18px;

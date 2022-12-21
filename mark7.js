@@ -17,6 +17,7 @@ function checkUrl (text) {
 function translateFunc () {
 
     let textInputValue = textInput.value;
+    outputRes.innerText = "translating, waiting due to server issue."
     // console.log("running")
 
     fetch(checkUrl(textInputValue))
