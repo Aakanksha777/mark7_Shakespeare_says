@@ -22,10 +22,10 @@ function translateFunc () {
 
     fetch(checkUrl(textInputValue))
     .then(response => response.json())
-    .then(json => console.log(json)
-        // { let translatedOutput = json.contents.translated
-        // outputRes.innerText = translatedOutput}
-        )
+    .then(json =>{
+        let translatedOutput = json.contents.translated
+        outputRes.innerText = translatedOutput
+    })
 }
 
 btn.addEventListener("click", translateFunc)
